@@ -1,5 +1,6 @@
 import { Text } from "@dex-web/ui";
 import { FeaturedAndTrendingPoolPanel } from "../components/FeaturedAndTrendingPoolPanel";
+import { WalletConnectButton } from "../components/Solana/WalletConnectButton";
 
 const MOCK_POOLS = [
   {
@@ -84,11 +85,12 @@ export default function IndexPage() {
   return (
     <div>
       <div className="wrapper">
-        <div className="container">
-          <div className="flex flex-col items-center justify-center">
-            <Text.Body1 className="animate-bounce">
+        <div className="container mx-auto">
+          <div className="flex flex-col items-center justify-center gap-1">
+            <Text.Body1 className="animate-bounce" data-testid="welcome">
               Under construction 🚧
             </Text.Body1>
+            <WalletConnectButton />
             <div className="w-sm">
               <FeaturedAndTrendingPoolPanel
                 featuredPools={MOCK_POOLS}
