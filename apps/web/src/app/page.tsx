@@ -1,4 +1,4 @@
-import { Text } from "@dex-web/ui";
+import { Hero, Text } from "@dex-web/ui";
 import { FeaturedAndTrendingPoolPanel } from "../components/FeaturedAndTrendingPoolPanel";
 
 const MOCK_POOLS = [
@@ -89,6 +89,21 @@ export default function IndexPage() {
             <Text.Body1 className="animate-bounce">
               Under construction 🚧
             </Text.Body1>
+            <Hero
+              className="gap-4"
+              image="/images/waddles/pose4.png"
+              imagePosition="start"
+            >
+              <div className="flex flex-col gap-3">
+                <Text.Heading>swap</Text.Heading>
+                <div className="flex flex-col">
+                  <Text.Body2>ANTI-SANDWICH DEFENSE:</Text.Body2>
+                  <Text.Body2 className="text-green-300">
+                    Value preservation system active.
+                  </Text.Body2>
+                </div>
+              </div>
+            </Hero>
             <div className="w-sm">
               <FeaturedAndTrendingPoolPanel
                 featuredPools={MOCK_POOLS}
