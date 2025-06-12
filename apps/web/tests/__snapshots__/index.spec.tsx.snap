@@ -19,6 +19,45 @@ exports[`Page > should render successfully 1`] = `
               Under construction 🚧
             </p>
             <div
+              class="flex items-center justify-between gap-4"
+            >
+              <img
+                alt="Waddles"
+                class="self-start"
+                data-nimg="1"
+                decoding="async"
+                height="420"
+                loading="lazy"
+                src="/_next/image?url=%2Fimages%2Fwaddles%2Fpose4.png&w=640&q=75"
+                srcset="/_next/image?url=%2Fimages%2Fwaddles%2Fpose4.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fwaddles%2Fpose4.png&w=640&q=75 2x"
+                style="color: transparent;"
+                width="200"
+              />
+              <div
+                class="flex flex-col gap-3"
+              >
+                <h1
+                  class="font-normal uppercase font-display text-3xl text-green-100 leading-7.5 tracking-normal"
+                >
+                  swap
+                </h1>
+                <div
+                  class="flex flex-col"
+                >
+                  <p
+                    class="font-normal uppercase font-sans text-green-200 text-lg leading-6 tracking-wide"
+                  >
+                    ANTI-SANDWICH DEFENSE:
+                  </p>
+                  <p
+                    class="font-normal uppercase font-sans text-lg leading-6 tracking-wide text-green-300"
+                  >
+                    Value preservation system active.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
               class="w-sm"
             >
               <div
